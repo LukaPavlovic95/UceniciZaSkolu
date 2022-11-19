@@ -1,5 +1,7 @@
-{ 
- "entities": [
+{ "Skola": 
+ [
+  {"id": "1",
+	"entities": [
   {
 	  "narodnostId": 1,
 	  "nacionalnaManjina": 1,
@@ -112,7 +114,127 @@
 	  "spol": "Z: 2",
 	  "ime": "Ucenik2Ime",
 	  "prezime": "string",
-	  "oib": "22222222222"
+	  "oib": "Ucenik2Prezime"
 	}
   ]
+  },
+  {"id": "2",
+	"entities": [
+  {
+	  "narodnostId": 1,
+	  "nacionalnaManjina": 1,
+	  "izvanSustava": true,
+	  "drzavaId": 1,
+	  "roditelji": {
+		"majka": {
+		  "ime": "Majka1Ime",
+		  "imeGenitiv": "string",
+		  "prezime": "Majka1Prezime"
+		},
+		"otac": {
+		  "ime": "Otac1Ime",
+		  "imeGenitiv": "string",
+		  "prezime": "Otac1Prezime"
+		}
+	  },
+	  "rodjenje": {
+		"datum": "2022-11-18T09:07:38.961Z",
+		"mjesto": "Mjestoneko",
+		"mjestoId": 1,
+		"drzavaId": 1
+	  },
+	  "ustanova": [
+		{
+		  "skolskaGodina": [
+			{
+			  "skolskaGodinaId": 1,
+			  "programi": [
+				{
+				  "programId": 1,
+				  "odjeljenje": {
+					"oznaka": "oznakaOdjeljenja",
+					"razred": [
+					  {
+						"razredId": 1
+					  }
+					]
+				  }
+				}
+			  ]
+			}
+		  ],
+		  "ustanovaId": 1,
+		  "sifra": "string",
+		  "podsifra": "string",
+		  "maticniBrojUSkoli": "string",
+		  "maticna": true,
+		  "datumOd": "2022-11-18T09:07:38.961Z",
+		  "datumDo": "2022-11-18T09:07:38.961Z"
+		}
+	  ],
+	  "spol": "M: 1",
+	  "ime": "Ucenik1Ime",
+	  "prezime": "Ucenik1Prezime",
+	  "oib": "11111111111"
+	},
+	{
+	  "narodnostId": 2,
+	  "nacionalnaManjina": 2,
+	  "izvanSustava": true,
+	  "drzavaId": 2,
+	  "roditelji": {
+		"majka": {
+		  "ime": "Majka2Ime",
+		  "imeGenitiv": "string",
+		  "prezime": "Majka2Prezime"
+		},
+		"otac": {
+		  "ime": "Otac2Ime",
+		  "imeGenitiv": "string",
+		  "prezime": "Otac2Prezime"
+		}
+	  },
+	  "rodjenje": {
+		"datum": "2022-11-18T09:07:38.961Z",
+		"mjesto": "string",
+		"mjestoId": 2,
+		"drzavaId": 2
+	  },
+	  "ustanova": [
+		{
+		  "skolskaGodina": [
+			{
+			  "skolskaGodinaId": 2,
+			  "programi": [
+				{
+				  "programId": 2,
+				  "odjeljenje": {
+					"oznaka": "oznaka2",
+					"razred": [
+					  {
+						"razredId": 2
+					  }
+					]
+				  }
+				}
+			  ]
+			}
+		  ],
+		  "ustanovaId": 2,
+		  "sifra": "string",
+		  "podsifra": "string",
+		  "maticniBrojUSkoli": "string",
+		  "maticna": true,
+		  "datumOd": "2022-11-18T09:07:38.961Z",
+		  "datumDo": "2022-11-18T09:07:38.961Z"
+		}
+	  ],
+	  "spol": "Z: 2",
+	  "ime": "Ucenik2Ime",
+	  "prezime": "string",
+	  "oib": "Ucenik2Prezime"
+	}
+  ]	
+  }
+ ]
 }
